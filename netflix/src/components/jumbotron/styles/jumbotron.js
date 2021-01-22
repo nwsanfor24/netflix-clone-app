@@ -5,6 +5,7 @@ export const Inner = styled.div`
     color: black;
     align-items: center;
     justify-content: space-between;
+    flex-direction: ${({ direction }) => direction};
     max-width: 1100px;
     margin: auto;
     width: 100%;
@@ -19,7 +20,7 @@ export const Pane = styled.div`
 
     @media (max-width: 1000px) {
         width: 100%;
-        padding: 0 4px;
+        padding: 0 45px;
         text-align: center;
     }
 `;
